@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.job-offer {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.job-offer h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #4a57fe;
+}
+
+.job-offer h3 {
+    margin: 10px 0;
+    text-align: center;
+    text-align: center;
+}
+
+.job-offer ul {
+    color: #002e5b;
+    margin: 10px;
+    padding: 0 0 0 20px;
+    list-style: none;
+}
+li{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 100%;
+}
+.job-offer p {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.mission{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #ffd61f;
+    border-bottom-right-radius: 30px;
+    
+}
+.candidature{
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #4a57fe;
+    color: #f2f2f2;
+    
+}
+.mission h2, h3{
+    color: #4a57fe;
+}
+span.triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #4a57fe;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .job-offer {
+      margin: 0px;
+    }
+    
+    .job-offer h2, .job-offer h3 {
+      text-align: left;
+    }
+    
+    .job-offer ul {
+      padding: 0;
+    }
+    
+    li {
+        display: flex;
+      padding: 5px;
+      margin-bottom: 2px;
+      font-size: 18px;
+    }
+    footer {
+      padding: 5px;
+    }
+    .mission{
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background-color: #ffd61f;
+        border-bottom-right-radius: 80px;
+        
+    }
+    .btn{
+        text-decoration: none;
+        padding: 20px;
+        background-color: #4a57fe;
+        color: #f2f2f2;
+        border-radius: 10px;
+        right: 0;
+        margin-left: 50%;
+        
+    }
+  }
