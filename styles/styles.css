@@ -84,6 +84,16 @@ span.triangle {
     display: inline-block;
     margin-right: 5px;
   }
+  .btn{
+      text-decoration: none;
+      padding: 20px;
+      background-color: #4a57fe;
+      color: #f2f2f2;
+      border-radius: 10px;
+      right: 0;
+      margin-left: 50%;
+      
+  }
 
 
 @media only screen and (max-width: 600px) {
